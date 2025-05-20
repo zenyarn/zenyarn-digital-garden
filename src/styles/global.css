@@ -3,42 +3,54 @@
 
 /* ibm-plex-sans-latin-wght-normal */
 @font-face {
-  font-family: 'IBM Plex Sans Variable';
+  font-family: "IBM Plex Sans Variable";
   font-style: normal;
   font-display: swap;
   font-weight: 100 700;
-  src: url(https://cdn.jsdelivr.net/fontsource/fonts/ibm-plex-sans:vf@latest/latin-wght-normal.woff2) format('woff2-variations');
-  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/ibm-plex-sans:vf@latest/latin-wght-normal.woff2)
+    format("woff2-variations");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 /* jetbrains-mono-latin-wght-normal */
 @font-face {
-  font-family: 'JetBrains Mono Variable';
+  font-family: "JetBrains Mono Variable";
   font-style: normal;
   font-display: swap;
   font-weight: 100 800;
-  src: url(https://cdn.jsdelivr.net/fontsource/fonts/jetbrains-mono:vf@latest/latin-wght-normal.woff2) format('woff2-variations');
-  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/jetbrains-mono:vf@latest/latin-wght-normal.woff2)
+    format("woff2-variations");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 /* space-grotesk-latin-wght-normal */
 @font-face {
-  font-family: 'Space Grotesk Variable';
+  font-family: "Space Grotesk Variable";
   font-style: normal;
   font-display: swap;
   font-weight: 300 700;
-  src: url(https://cdn.jsdelivr.net/fontsource/fonts/space-grotesk:vf@latest/latin-wght-normal.woff2) format('woff2-variations');
-  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/space-grotesk:vf@latest/latin-wght-normal.woff2)
+    format("woff2-variations");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 /* fira-code-latin-wght-normal */
 @font-face {
-  font-family: 'Fira Code Variable';
+  font-family: "Fira Code Variable";
   font-style: normal;
   font-display: swap;
   font-weight: 300 700;
-  src: url(https://cdn.jsdelivr.net/fontsource/fonts/fira-code:vf@latest/latin-wght-normal.woff2) format('woff2-variations');
-  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/fira-code:vf@latest/latin-wght-normal.woff2)
+    format("woff2-variations");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 @theme {
@@ -97,7 +109,7 @@
   --color-quote-foreground: var(--color-slate-500);
   --color-quote-background: var(--color-slate-200);
   --color-quote-border: var(--color-slate-400);
-  
+
   /** Components **/
   --color-background: var(--color-gray-200);
   --color-article-background: var(--color-gray-50);
@@ -159,16 +171,16 @@
   --color-hr-border-dark: var(--color-obsidian-300);
 
   --font-title: "JetBrains Mono Variable", "sans-serif";
-  --font-heading: "Space Grotesk Variable",  "sans-serif";
+  --font-heading: "Space Grotesk Variable", "sans-serif";
   --font-paragraph: "IBM Plex Sans Variable";
-  --font-menu: "JetBrains Mono Variable",  "sans-serif";
+  --font-menu: "JetBrains Mono Variable", "sans-serif";
   --font-code: "Fira Code Variable", "ui-monospace";
 }
 
 @custom-variant marker (&::marker, & *::marker, &::-webkit-details-marker, & *::-webkit-details-marker);
 
 @utility bg-texture {
-  opacity: .12;
+  opacity: 0.12;
   mix-blend-mode: multiply;
   z-index: 100;
   isolation: isolate;
@@ -298,8 +310,8 @@ iframe {
 @utility timeline-item {
   @apply justify-items-center shrink-0 items-center grid relative;
 
-  grid-template-rows:  .5rem auto minmax(0,1fr);
-  grid-template-columns: minmax(0,1fr) auto minmax(0,1fr);
+  grid-template-rows: 0.5rem auto minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
 }
 
 @utility timeline-item__card {
@@ -331,7 +343,7 @@ iframe {
 @utility timeline-item__line--start {
   grid-row-start: 1;
   grid-column-start: 2;
-  width: .25rem;
+  width: 0.25rem;
   height: 100%;
   background-color: var(--color-purple-700);
   border: none;
@@ -349,7 +361,7 @@ iframe {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
   grid-area: 3 / 2 / none;
-  width: .25rem;
+  width: 0.25rem;
   height: 100%;
 }
 
@@ -364,7 +376,6 @@ iframe {
 @utility timeline-card--content {
   @apply font-paragraph leading-6;
 }
-
 
 @utility spoiler {
   @apply flex flex-col w-full h-full px-4 font-paragraph peer-checked:hidden cursor-pointer bg-slate-800 text-white;
