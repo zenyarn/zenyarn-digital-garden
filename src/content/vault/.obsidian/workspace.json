@@ -11,10 +11,14 @@
             "id": "7966798592644671",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Temp/Welcome.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Welcome"
             }
           }
         ]
@@ -40,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
@@ -153,29 +157,34 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "7966798592644671",
+  "active": "23b60824676cc055",
   "lastOpenFiles": [
-    "Examples/Lorem.md",
-    "Assets/logos",
-    "Welcome.md",
-    "Assets/BlogCover.avif",
-    "Assets/Mesa con café y cuaderno.avif",
-    "Assets/premium_photo-1684581214880-2043e5bc8b8b.avif",
+    "Temp/Content Loader.md",
+    "Temp/Welcome.md",
+    "Temp",
+    "Temp/Examples/Cheatsheets/Embeds.md",
+    "Temp/Examples/Cheatsheets/Callouts.md",
+    "Temp/Examples/Cheatsheets/Markdown Cheatsheet.md",
     "Assets/logos/obsidian.svg",
     "Assets/logos/astro.png",
+    "Assets/BlogCover.avif",
+    "Assets/Screenshots/004.jpg",
+    "Temp/Examples/Lorem.md",
+    "Assets/logos",
+    "Assets/Mesa con café y cuaderno.avif",
+    "Assets/premium_photo-1684581214880-2043e5bc8b8b.avif",
     "Assets",
-    "Examples/Cheatsheets/Markdown Cheatsheet.md",
-    "Examples/Cheatsheets",
+    "Temp/Examples/Cheatsheets",
     "Examples/Markdown Cheatsheet.md",
-    "Examples",
+    "Temp/Examples",
     "examples/Lorem.md",
     "examples/nested/Lorem.md",
     "examples/nested",
