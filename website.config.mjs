@@ -1,8 +1,7 @@
-
 export default {
-  author: 'Spaceship CO',
-  base: 'astro-theme-spaceship',
-  title: 'Spaceship',
-  description: 'Astro Template for publishing your Obsidian Vault',
-  defaultLanguage: 'en',
-}
+  author: "ZenYarn",
+  base: "",
+  title: "ZenYarn",
+  description: "ZenYarn 的数字花园",
+  defaultLanguage: "zh",
+};
