@@ -2,6 +2,5 @@ OpenAI 是一家人工智能研究与开发公司，成立于 2015 年，总部�
 
 公司致力于推动通用人工智能（AGI）的安全发展，使命是确保人工智能造福全人类。OpenAI 以开放合作著称，代表性产品包括 GPT 系列大语言模型、ChatGPT、DALL·E 等，广泛应用于自然语言处理、图像生成等领域。OpenAI 在全球 AI 产业和学术界具有重要影响力。
 
-官网：https://www.openai.com/
-
-创始人：Sam Altman
+- 官网：https://www.openai.com/
+- 创始人：Sam Altman
