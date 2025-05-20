@@ -1,4 +1,4 @@
-# 🌌 Spaceship
+# ZenYarn 的数字花园
 
 **Astro Spaceship** is a powerful, minimal, and flexible theme designed for turning your Obsidian vault into a beautiful, static website using Astro and TailwindCSS. Whether you're sharing your digital garden, notes, or a Zettelkasten, this theme helps bring your knowledge to the web with elegance and ease.
 
@@ -58,19 +58,21 @@
 ## 🛠 Setup & Usage
 
 1. Start a new project with `create astro` or just clone this repo.
+
 ```sh
 npm create astro@latest -- --template aitorllj93/astro-theme-spaceship
 ```
+
 2. Drop your Obsidian vault into the `content/` folder.
 3. Customize your config (navigation, theme colors, etc.)
 4. Run `npm install && npm run dev` to get started!
 
-###  Customization
+### Customization
 
-* `website.config.mjs`: Global settings such as the Website name and default author
-* `styles/global.css`: Tailwind CSS configuration
-* `content.config.ts`: Your collections config, including the Obsidian one. Be careful while applying changes here.
-* `content`: Your Obsidian Vault + some metadata collections: Authors and Tags
+- `website.config.mjs`: Global settings such as the Website name and default author
+- `styles/global.css`: Tailwind CSS configuration
+- `content.config.ts`: Your collections config, including the Obsidian one. Be careful while applying changes here.
+- `content`: Your Obsidian Vault + some metadata collections: Authors and Tags
 
 ---
 
