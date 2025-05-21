@@ -1,1 +1,2 @@
-[[AI Web Novels]]
+[[AI网文]]
+
